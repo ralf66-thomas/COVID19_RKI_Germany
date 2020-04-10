@@ -1,5 +1,5 @@
 #
-# create Coroa stats using Pandas
+# Create Coroa stats using Pandas
 #
 
 import pandas as pd
@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 fn_rki = "./RKI_Covid19_ALL.csv"
 
 #
-# Loading Data
+# Loading Data and generate Graphs
 #
 
 data_germany = pd.read_csv(fn_rki)
